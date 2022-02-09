@@ -12,6 +12,6 @@ variable "locust_plan_filename" {
 }
 
 variable "subnet_name" {
-    default = "subnet-prd-a"
-    description = "Subnet name"
+    default = "load_test_subnet"
+    description = "load_test_subnet"
 }

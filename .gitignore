@@ -22,3 +22,7 @@ docs/env-options.rst
 __pycache__
 .pytest_cache
 .sass-cache/
+/examples/terraform/aws/.terraform/
+/examples/terraform/aws/.terraform.lock.hcl
+/examples/terraform/aws/.terraform.tfstate.lock.info
+/examples/terraform/aws/terraform.tfstate
