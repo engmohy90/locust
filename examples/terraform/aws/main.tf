@@ -8,9 +8,9 @@ module "loadtest" {
     executor = "locust"
     loadtest_dir_source = var.loadtest_dir_source
 
-    # SETUP INSTANCE SIZE
-    leader_instance_type = "t2.medium"
-    nodes_intance_type = "t2.medium"
+#    # SETUP INSTANCE SIZE
+#    leader_instance_type = "t2.medium"
+#    nodes_intance_type = "t2.medium"
 
     # LEADER ENTRYPOINT
     loadtest_entrypoint = <<-EOT

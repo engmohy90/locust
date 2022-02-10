@@ -1,6 +1,6 @@
 variable "node_size" {
     description = "Size of total nodes"
-    default = 2
+    default = 10
 }
 
 variable "loadtest_dir_source" {
